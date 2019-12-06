@@ -1,4 +1,4 @@
-package Tests;
+package Tests.HW01_BasicNavig;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -21,10 +21,10 @@ public class TestCase01 {
         }else{
             System.out.println("FAIL");
         }
-        BrowserUtils.wait(2);
+        BrowserUtils.wait(1);
 
         String expectedHButton = "Home";
-        String actualHButton = driver.findElement(By.xpath("//i [@class='icon-2x icon-signout']")).getText();
+        String actualHButton = driver.findElement(By.className("//i [@class='icon-2x icon-signout']")).getText();
         if (expectedHButton.equals(actualHButton)) {
             System.out.println("Home button displayed");
         } else System.out.println("No button exists");
