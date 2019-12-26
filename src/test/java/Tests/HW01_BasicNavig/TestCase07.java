@@ -1,6 +1,6 @@
 package Tests.HW01_BasicNavig;
 
-import jdk.internal.misc.FileSystemOption;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
